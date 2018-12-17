@@ -10,4 +10,6 @@ const source = fs.readFileSync(lotteryPath,'utf8');	// contains .sol code
 //module.exports = solc.compile(source,1).contracts[':Lottery'];	// no of contracts trying to compile
  console.log(solc.compile(source,1));
 
-//Unable to understand why solc.compile is returning "undefined" in the above code.
+// Unable to understand why solc.compile is returning "undefined" in the above code.
+// I have another project with similar code to test using mocha. That project is running successfully during testing
+//Im confused why this one isnt.
